@@ -33,7 +33,7 @@
             <key>metadata</key>
             <dict>
 				<key>update-url</key>
-	            <string>https://pd4v8k2zz.bkt.clouddn.com/ios.plist</string>
+	            <string>https://raw.githubusercontent.com/tianmacgw/dudubao/master/ios.plist</string>
                 <key>bundle-identifier</key>
                 <string>com.dudubaoled.dudubao</string>
                 <key>bundle-version</key>
