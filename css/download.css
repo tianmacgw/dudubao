@@ -1,0 +1,182 @@
+/*公共样式*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?rg726a');
+  src:  url('../fonts/icomoon.eot?rg726a#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?rg726a') format('truetype'),
+    url('../fonts/icomoon.woff?rg726a') format('woff'),
+    url('../fonts/icomoon.svg?rg726a#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-android:before {
+  content: "\eac0";
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	width:100%;box-sizing:border-box;
+	min-width:1200px;
+	background-color: white;
+	}
+body{
+	width:100%;box-sizing:border-box;
+	position:relative;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #333333;
+}
+input {
+	outline: none;
+}
+.bx{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+/*顶部*/
+.top{
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	z-index: 1000;
+}
+.top>.bx>a>img{
+	height: 80px;
+	width: auto;
+	float: left;
+}
+.top>.bx>ul{
+	float: left;
+	line-height: 80px;
+	font-size: 18px;
+	margin-left: 85px;
+}
+.top>.bx>ul>li{
+	float: left;
+}
+.top>.bx>ul>li>a{
+    display: inline-block;
+    height: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.top>.bx>ul>li>a:hover{
+	background-color: #0c8ef1;
+	color: white;
+}
+/*下载*/
+.middle{
+	height: 572px;
+	position: relative;
+}
+.middle>.qecode{
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	height: auto;
+	width: auto;
+}
+.middle>.qecode>img{
+	height: 200px;
+	width: 200px;
+}
+.middle>.qecode>p{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.middle>.iphone{
+	position: absolute;
+	top: 200px;
+	left: 520px;
+	height: auto;
+	width: auto;
+}
+.middle>.iphone>img{
+	padding-top: 10px;
+	height: 180px;
+	width: auto;}
+.middle>.iphone>a>button{
+	background-color: skyblue;
+	height: 40px;
+	width: 140px;
+	outline: none;
+	border: none;
+	color: white;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.middle>.iphone>a>button:hover{
+	background-color: #0c8ef1;
+}
+.middle>.android{
+	position: absolute;
+	top: 200px;
+	left: 850px;
+	height: auto;
+	width: auto;
+}
+.middle>.android>img{
+	padding-top: 10px;
+	height: 180px;
+	width: auto;}
+.middle>.android>a>button{
+	background-color: skyblue;
+	height: 40px;
+	width: 140px;
+	outline: none;
+	border: none;
+	color: white;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.middle>.android>a>button:hover{
+	background-color: #0c8ef1;
+}
+/*底部*/
+.footer{
+	height: 100px;
+	background-color: #2a2a2a;
+}
+.footer>.bx{
+	padding-top: 20px;
+}
+.footer>.bx>p{
+	font-size: 12px;
+	color: #999;
+	text-align: center;
+	padding-top: 10px;
+}
